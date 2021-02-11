@@ -1,0 +1,26 @@
+{
+    "depth": -1.0,
+    "scale": 0.0,
+    "precipitation": "none",
+    "category":"ocean",
+    "temperature": 0.8,
+    "temperature_modifier": "none",
+    "downfall": 0.5,
+    "player_spawn_friendly": false,
+    "creature_spawn_probability": 0,
+    "effects": {
+        "fog_color": 16762014,
+        "foliage_color": 4079104,
+        "grass_color": 4079104,
+        "grass_color_modifier": "none",
+        "sky_color": 1588359,
+        "water_color": 19456,
+        "water_fog_color": 11520
+    },
+    "surface_builder": "minecraft:grass",
+    "carvers": {},
+    "features": [],
+    "starts": [],
+    "spawners": {},
+    "spawn_costs": {}
+}
