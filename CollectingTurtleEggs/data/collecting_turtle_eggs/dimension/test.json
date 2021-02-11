@@ -1,0 +1,29 @@
+{
+    "type":"collecting_turtle_eggs:test",
+    "generator": {
+        "type":"minecraft:flat",
+        "seed": -1,
+        "settings": {
+            "layers": [
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:water",
+                    "height":80
+                }
+            ],
+            "biome": "collecting_turtle_eggs:bad_ocean",
+            "lakes": false,
+            "structures": {
+                "stronghold": {
+                    "count": 1,
+                    "distance": 0,
+                    "spread": 0
+                },
+                "structures": {}
+            }
+        }
+    }
+}
