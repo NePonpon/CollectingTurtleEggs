@@ -12,14 +12,14 @@ execute store result bossbar collecting_turtle_eggs:timer value run scoreboard p
 
 #タイトル
 scoreboard players operation timer_title Master = timer Master
-scoreboard players operation timer_title Master /= #20 Count
+scoreboard players operation timer_title Master /= #20 Const
 scoreboard players add timer_title Master 1
 title @a subtitle {"text": "次のWAVEまで","color": "green"}
 title @a title {"score":{"name": "timer_title","objective": "Master"},"color": "green"}
 
 #サウンド
 scoreboard players operation timer_title Master = timer Master
-scoreboard players operation timer_title Master %= #20 Count
+scoreboard players operation timer_title Master %= #20 Const
 execute if score timer_title Master matches 0 as @a at @s run playsound minecraft:entity.player.attack.weak master @a ~ ~ ~ 1 2 1
 
 #タイマークロック分岐
