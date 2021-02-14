@@ -24,4 +24,4 @@ execute if score timer_title Master matches 0 as @a at @s run playsound minecraf
 
 #タイマークロック分岐
 execute if score timer Master matches 1.. run schedule function collecting_turtle_eggs:game_global/wait_timer/clock 1t
-execute if score timer Master matches ..0 run schedule function collecting_turtle_eggs:game_global/wait_timer/timer_resrt 3t
+execute if score timer Master matches ..0 run schedule function collecting_turtle_eggs:game_global/wait_timer/timer_reset 3t
