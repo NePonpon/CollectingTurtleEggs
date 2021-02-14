@@ -1,0 +1,13 @@
+#> collecting_turtle_eggs:game_area/test/change_stop_1
+#
+# 潮位変化をストップさせる
+#
+# @within function collecting_turtle_eggs:game_area/test/tide_level_changer
+
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/low_to_low
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/low_to_midle
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/midle_to_low
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/midle_to_midle
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/midle_to_high
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/high_to_midle
+schedule clear collecting_turtle_eggs:game_area/test/tide_level_change/high_to_high
