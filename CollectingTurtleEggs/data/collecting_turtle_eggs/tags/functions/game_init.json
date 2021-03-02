@@ -1,0 +1,8 @@
+{
+    "values": [
+        "collecting_turtle_eggs:init_settings/gamerule_setting",
+        "collecting_turtle_eggs:init_settings/scoreboard_settings",
+        "collecting_turtle_eggs:init_settings/storage_settings",
+        "collecting_turtle_eggs:init_settings/other_settings"
+    ]
+}
